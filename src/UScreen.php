@@ -2,6 +2,8 @@
 
 namespace UScreen;
 
+require('Shim.php');
+
 class UScreen {
     public static function getApiService(String $endpoint, String $token, $timeout = 15, $debug = false, $verify_host_ssl = true) {
 
